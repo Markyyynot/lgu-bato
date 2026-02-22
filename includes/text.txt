@@ -1,0 +1,215 @@
+<style>
+/* ===============================
+   NAVBAR
+================================ */
+.main-navbar {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background-color: #1b2a4e;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    position: relative;
+    z-index: 10;
+}
+
+.main-navbar i {
+    margin-right: 6px;
+    font-size: 0.9rem;
+}
+
+.main-navbar a,
+.main-navbar .dropbtn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 16px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* LEFT → RIGHT UNDERLINE */
+.main-navbar a::after,
+.main-navbar .dropbtn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.6s ease;
+}
+
+.main-navbar a:hover::after,
+.main-navbar a.active::after,
+.main-navbar .dropbtn:hover::after {
+    transform: scaleX(1);
+}
+
+/* DIVIDERS */
+.main-navbar > a:not(:last-child),
+.main-navbar > .dropdown:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ===============================
+   DROPDOWN
+================================ */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1b2a4e;
+    min-width: 220px;
+    display: none;
+    flex-direction: column;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+
+.dropdown-menu a {
+    padding: 10px 15px;
+    font-size: 0.85rem;
+    border-right: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #002f6c;
+}
+
+/* HOVER ON DESKTOP, CLICK ON MOBILE */
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        position: absolute;
+        display: none; /* hide by default */
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: flex; /* show when active */
+    }
+}
+</style>
+<nav class="main-navbar">
+    <a href="https://www.gov.ph" target="_blank">
+        <i class="fa-solid fa-landmark"></i> GOVPH
+    </a>
+
+    <a href="index.php" class="<?= $currentPage == 'index.php' ? 'active' : '' ?>">
+        <i class="fa-solid fa-house"></i> HOME
+    </a>
+
+    <!-- Dropdown for Government -->
+    <div class="dropdown">
+        <a href="#" class="dropbtn">
+            <i class="fa-solid fa-building-columns"></i> GOVERNMENT &#x25BE;
+        </a>
+        <div class="dropdown-menu">
+            <a href="executive.php" class="<?= $currentPage == 'executive.php' ? 'active' : '' ?>">
+                <i class="fa-solid fa-user-tie"></i> Executive Department
+            </a>
+            <a href="legislative.php" class="<?= $currentPage == 'legislative.php' ? 'active' : '' ?>">
+                <i class="fa-solid fa-scale-balanced"></i> Legislative Department
+            </a>
+            <a href="barangay.php" class="<?= $currentPage == 'barangay.php' ? 'active' : '' ?>">
+                <i class="fa-solid fa-people-group"></i> Barangay
+            </a>
+        </div>
+    </div>
+
+    <!-- Dropdown for Tourism -->
+    <div class="dropdown">
+        <a href="#" class="dropbtn">
+            <i class="fa-solid fa-umbrella-beach"></i> TOURISM &#x25BE;
+        </a>
+        <div class="dropdown-menu">
+            <a href="batobalani.php" class="<?= $currentPage == 'batobalani.php' ? 'active' : '' ?>">
+                <i class="fa-solid fa-umbrella-beach"></i> Batobalani
+            </a>
+            <!-- Add more tourism pages here -->
+        </div>
+    </div>
+
+<!-- Dropdown for Transparency -->
+<div class="dropdown">
+    <a href="#" class="dropbtn">
+        <i class="fa-solid fa-file-lines"></i> TRANSPARENCY &#x25BE;
+    </a>
+    <div class="dropdown-menu">
+        <a href="full-disclosure.php" class="<?= $currentPage == 'full-disclosure.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-shield-halved"></i> Full Disclosure Policy
+        </a>
+        <a href="executive-orders.php" class="<?= $currentPage == 'executive-orders.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-file-circle-check"></i> Executive Order
+        </a>
+        <a href="ordinance.php" class="<?= $currentPage == 'ordinance.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-scroll"></i> Ordinance
+        </a>
+        <a href="resolutions.php" class="<?= $currentPage == 'resolutions.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-file-signature"></i> Resolutions
+        </a>
+    </div>
+</div>
+
+
+<!-- Dropdown for BAC -->
+<div class="dropdown">
+    <a href="#" class="dropbtn">
+        <i class="fa-solid fa-gavel"></i> BAC &#x25BE;
+    </a>
+    <div class="dropdown-menu">
+        <a href="invite-bid.php" class="<?= $currentPage == 'invite-bid.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-envelope-open-text"></i> Invitation to BID
+        </a>
+        <a href="documentation.php" class="<?= $currentPage == 'documentation.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-file-contract"></i> Procurement Documentation
+        </a>
+        <a href="reports.php" class="<?= $currentPage == 'reports.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-chart-line"></i> Procurement Reports
+        </a>
+    </div>
+</div>
+
+<!-- Dropdown for Other Links -->
+<div class="dropdown">
+    <a href="#" class="dropbtn">
+        <i class="fa-solid fa-link"></i> OTHER LINKS &#x25BE;
+    </a>
+    <div class="dropdown-menu">
+        <a href="downloadable-forms.php" class="<?= $currentPage == 'downloadable-forms.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-file-arrow-down"></i> Downloadable Forms
+        </a>
+        <a href="bpls.php" class="<?= $currentPage == 'bpls.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-briefcase"></i> Business Permit & Licensing System (BPLS)
+        </a>
+        <a href="bpas.php" class="<?= $currentPage == 'bpas.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-building"></i> Building Permit Application System (BPAS)
+        </a>
+        <a href="gpmts.php" class="<?= $currentPage == 'gpmts.php' ? 'active' : '' ?>">
+            <i class="fa-solid fa-boxes-packing"></i> Government Property Management System (GPMTS)
+        </a>
+    </div>
+</div>
+
+
+    <a href="about.php" class="<?= $currentPage == 'about.php' ? 'active' : '' ?>">
+        <i class="fa-solid fa-circle-info"></i> ABOUT US
+    </a>
+</nav>
