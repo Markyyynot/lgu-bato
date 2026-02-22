@@ -219,7 +219,7 @@
     <div class="officials-grid">
 
         <div class="official-card scroll-animate">
-            <img src="assets/mayor/gilbert.jpg">
+            <img src="assets/mayor/gilbert.JPG">
             <h3>Gilbert Pajulio Buzon</h3>
             <p>Municipal Administrator</p>
         </div>
@@ -231,7 +231,7 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/mayor/nin.jpg">
+            <img src="assets/mayor/nin.JPG">
             <h3>Gerard Niño Fe</h3>
             <p>PESO Officer</p>
         </div>
@@ -249,7 +249,7 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/mayor/gab.jpg">
+            <img src="assets/mayor/gab.JPG">
             <h3>Gabriel G. Tavera</h3>
             <p>ICT Officer</p>
         </div>
@@ -261,13 +261,13 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/mayor/sil.jpg">
+            <img src="assets/mayor/sil.JPG">
             <h3>Silvestre G. Aseniero</h3>
             <p>Book Binder II</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/mayor/danilo.jpg">
+            <img src="assets/mayor/danilo.JPG">
             <h3>Danilo A. Pitogo</h3>
             <p>SG II</p>
         </div>
@@ -279,7 +279,7 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/mayor/des.jpg">
+            <img src="assets/mayor/des.JPG">
             <h3>Desiree Mae Adlawan</h3>
             <p>Staff / Job Order</p>
         </div>

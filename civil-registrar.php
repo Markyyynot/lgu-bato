@@ -210,7 +210,7 @@
 
     <!-- CIVIL REGISTRAR -->
     <div class="top-official scroll-animate">
-        <img src="assets/civil/thelma.jpg" alt="Civil Registrar">
+        <img src="assets/civil/thelma.JPG" alt="Civil Registrar">
         <h3>Thelma B. Bibera</h3>
         <p>Civil Registrar</p>
     </div>
@@ -219,7 +219,7 @@
     <div class="officials-grid">
 
         <div class="official-card scroll-animate">
-            <img src="assets/civil/felix.jpg" alt="Staff">
+            <img src="assets/civil/felix.JPG" alt="Staff">
             <h3>Felix E. Tamarion</h3>
             <p>Registration Officer</p>
         </div>
@@ -243,13 +243,13 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/civil/alma.jpg" alt="Staff">
+            <img src="assets/civil/alma.JPG" alt="Staff">
             <h3>Alma T. Mendoza</h3>
             <p>Admin Aide I</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/civil/jocelyn.jpg" alt="Staff">
+            <img src="assets/civil/jocelyn.JPG" alt="Staff">
             <h3>Jocelyn G. Cuadra</h3>
             <p>Job Order</p>
         </div>

@@ -215,12 +215,12 @@
     <!-- STAFF GRID -->
     <div class="officials-grid">
         <div class="official-card scroll-animate">
-            <img src="assets/assessor/alicia.jpg" alt="Assistant">
+            <img src="assets/assessor/alicia.JPG" alt="Assistant">
             <h3>Alicia L. Casinillo</h3>
             <p>Admin Aide III</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/assessor/reymart.jpg" alt="Staff">
+            <img src="assets/assessor/reymart.JPG" alt="Staff">
             <h3>Reymart B. Torrente</h3>
             <p>Admin Aide I</p>
         </div>
@@ -235,7 +235,7 @@
             <p>Tax Mapper</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/assessor/ahljun.jpg" alt="Staff">
+            <img src="assets/assessor/ahljun.JPG" alt="Staff">
             <h3>Ahljun B. Avila</h3>
             <p>Job Order</p>
         </div>

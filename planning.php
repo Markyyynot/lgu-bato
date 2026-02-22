@@ -216,13 +216,13 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/planning/boy.png">
+<img src="assets/planning/jonathan.jpg">
 <h3>Jonathan R. Urtula</h3>
 <p>Draftsman III</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/planning/jocelyn.jpg">
+<img src="assets/planning/jocelyn.JPG">
 <h3>Jocelyn O. Nodalo</h3>
 <p>Aide I</p>
 </div>
@@ -240,7 +240,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/planning/dulce.jpg">
+<img src="assets/planning/dulce.JPG">
 <h3>Dulce G. Fiel</h3>
 <p>Aide I</p>
 </div>
@@ -252,7 +252,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/planning/marybel.jpg">
+<img src="assets/planning/marybel.JPG">
 <h3>Marybell L. Inguito</h3>
 <p>Job Order</p>
 </div>

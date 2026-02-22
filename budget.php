@@ -217,7 +217,7 @@
 
     <!-- BUDGET OFFICER -->
     <div class="top-official scroll-animate">
-        <img src="assets/budget/arvin.jpg" alt="Budget Officer">
+        <img src="assets/budget/arvin.JPG" alt="Budget Officer">
         <h3>Arvin D. Ayoc</h3>
         <p>Municipal Budget Officer</p>
     </div>
@@ -226,7 +226,7 @@
     <div class="officials-grid">
 
         <div class="official-card scroll-animate">
-            <img src="assets/budget/edna.jpg">
+            <img src="assets/budget/edna.JPG">
             <h3>Edna F. Delos Santos</h3>
             <p>Admin Aide III</p>
         </div>
@@ -238,13 +238,13 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/budget/alquin.jpg">
+            <img src="assets/budget/alquin.JPG">
             <h3>Jose Alquin D. Ayoc</h3>
             <p>Admin Aide I</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/budget/louie.jpg">
+            <img src="assets/budget/louie.JPG">
             <h3>Jose Louie D. Ayoc</h3>
             <p>Job Order</p>
         </div>

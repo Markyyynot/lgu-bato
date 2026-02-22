@@ -201,7 +201,7 @@
 
 <!-- TOP OFFICIAL -->
 <div class="top-official scroll-animate">
-    <img src="assets/human/maria.jpg" alt="HR Officer">
+    <img src="assets/human/maria.JPG" alt="HR Officer">
     <h3>Maria Jastene P. Pavo</h3>
     <p>Administrative Officer II (HRMO)</p>
 </div>
@@ -210,19 +210,19 @@
 <div class="officials-grid">
 
 <div class="official-card scroll-animate">
-<img src="assets/human/levy.jpg" alt="Staff">
+<img src="assets/human/levy.JPG" alt="Staff">
 <h3>Levy D. Nazareno</h3>
 <p>Administrative Aide I</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/human/maisie.jpg" alt="Staff">
+<img src="assets/human/maisie.JPG" alt="Staff">
 <h3>Maisie Jill F. Cajegas</h3>
 <p>Job Order</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/human/belen.jpg" alt="Staff">
+<img src="assets/human/belen.JPG" alt="Staff">
 <h3>Belen S. Balaba</h3>
 <p>Job Order</p>
 </div>

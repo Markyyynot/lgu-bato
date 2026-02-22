@@ -215,17 +215,17 @@
     <!-- STAFF GRID -->
     <div class="officials-grid">
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/latok.jpg" alt="Accountant">
+            <img src="assets/treasurer/latok.JPG" alt="Accountant">
             <h3>Sucille O. Latok</h3>
             <p>Treasury Operations Officer I</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/richel.jpg" alt="Cashier">
+            <img src="assets/treasurer/richel.JPG" alt="Cashier">
             <h3>Richel A. Gesultura</h3>
             <p>Assessment Clerk II</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/isabelita.jpg" alt="Cashier">
+            <img src="assets/treasurer/isabelita.JPG" alt="Cashier">
             <h3>Isabelita S. Pinero</h3>
             <p>Admin Aide I</p>
         </div>
@@ -235,7 +235,7 @@
             <p>Admin Aide I</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/fe.jpg" alt="Cashier">
+            <img src="assets/treasurer/fe.JPG" alt="Cashier">
             <h3>Fe Luida B. Coco</h3>
             <p>Revenue Collection Clerk I</p>
         </div>
@@ -245,17 +245,17 @@
             <p>Job Order</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/erwin.jpg" alt="Cashier">
+            <img src="assets/treasurer/erwin.JPG" alt="Cashier">
             <h3>Erwin J. Tero</h3>
             <p>Job Order</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/james.jpg" alt="Cashier">
+            <img src="assets/treasurer/james.JPG" alt="Cashier">
             <h3>James Austria</h3>
             <p>Job Order</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/treasurer/mary.jpg" alt="Cashier">
+            <img src="assets/treasurer/mary.JPG" alt="Cashier">
             <h3>Mary Apple B. Pinola</h3>
             <p>Job Order</p>
         </div>

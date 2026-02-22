@@ -217,7 +217,7 @@
 
     <!-- SB SECRETARY -->
     <div class="top-official scroll-animate">
-        <img src="assets/sb/porf1.jpg" alt="SB Secretary">
+        <img src="assets/sb/porf1.JPG" alt="SB Secretary">
         <h3>Porferio M. Pitogo II</h3>
         <p>Sangguniang Bayan Secretary</p>
     </div>
@@ -226,13 +226,13 @@
     <div class="officials-grid">
 
         <div class="official-card scroll-animate">
-            <img src="assets/sb/abryl.jpg" alt="Information Officer">
+            <img src="assets/sb/abryl.JPG" alt="Information Officer">
             <h3>Abryl T. Gertos</h3>
             <p>Information Officer</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/sb/jerry.jpg" alt="Legislative Staff">
+            <img src="assets/sb/jerry.JPG" alt="Legislative Staff">
             <h3>Jerry B. Catolico</h3>
             <p>Legislative Staff</p>
         </div>

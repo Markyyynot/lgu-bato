@@ -198,7 +198,7 @@
 
 <!-- TOP OFFICIAL -->
 <div class="top-official scroll-animate">
-    <img src="assets/rhu/boy.png" alt="Rural Health Officer">
+    <img src="assets/rhu/PROBO.jfif" alt="Rural Health Officer">
     <h3>Dr. Probo P. Quijano,MD,MPH</h3>
     <p>Municipal Health Officer</p>
 </div>
@@ -231,49 +231,49 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Nurse">
+<img src="assets/rhu/CHARINA.jpeg" alt="Nurse">
 <h3>Charina Jubille M. Aguilar</h3>
 <p>Nurse</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Staff">
+<img src="assets/rhu/HONORA.jpg" alt="Staff">
 <h3>Honora M. Mercado</h3>
 <p>Nurse</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/boy.png" alt="Nurse">
+<img src="assets/rhu/luisito.jfif" alt="Nurse">
 <h3>Luisito S. Piezon</h3>
 <p>Nurse</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Staff">
+<img src="assets/rhu/christine.jfif" alt="Staff">
 <h3>Christine C. Nengasca</h3>
 <p>Nurse</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Nurse">
+<img src="assets/rhu/GRACE.jpg" alt="Nurse">
 <h3>Grace C. Quijano, RMT, MPH</h3>
 <p>Laboratory Center Staff</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Staff">
+<img src="assets/rhu/DONA MAE.jpg" alt="Staff">
 <h3>Donna Mae B. Resurreccion</h3>
 <p>Laboratory Center Staff</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Nurse">
+<img src="assets/rhu/EDELYN.jpg" alt="Nurse">
 <h3>Edelyn A. Huezo</h3>
 <p>Laboratory Center Staff</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/boy.png" alt="Staff">
+<img src="assets/rhu/FRANCIS.jpeg" alt="Staff">
 <h3>Francis Rodel S. Jimenez</h3>
 <p>RSI</p>
 </div>
@@ -303,13 +303,13 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Nurse">
+<img src="assets/rhu/georgette.jpg" alt="Nurse">
 <h3>Georgette T. Rubillos</h3>
 <p>RHM</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Staff">
+<img src="assets/rhu/cinthia.jpg" alt="Staff">
 <h3>Cynthia C. Saadvedra</h3>
 <p>RHM</p>
 </div>
@@ -327,7 +327,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Nurse">
+<img src="assets/rhu/FE HAZEL.jpg" alt="Nurse">
 <h3>Fe Hazel R. Orano</h3>
 <p>RHM</p>
 </div>
@@ -339,13 +339,13 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Nurse">
+<img src="assets/rhu/Maylen1.jfif" alt="Nurse">
 <h3>Maylen G. Cajes</h3>
 <p>JO</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/boy.png" alt="Staff">
+<img src="assets/rhu/ARNEL.jfif" alt="Staff">
 <h3>Arnel P. Caliente<h3>
 <p>JO</p>
 </div>
@@ -357,7 +357,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Staff">
+<img src="assets/rhu/DESIREE.jpeg" alt="Staff">
 <h3>Desiree Q. Cotillas</h3>
 <p>JO</p>
 </div>
@@ -393,19 +393,19 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/boy.png" alt="Staff">
+<img src="assets/rhu/RENANTE.jpg" alt="Staff">
 <h3>Renante B. Canto</h3>
 <p>Sea Ambulance Driver</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/boy.png" alt="Nurse">
+<img src="assets/rhu/ARNED.jpg" alt="Nurse">
 <h3>Arnid S. Inguito</h3>
 <p>Sea Ambulance Driver</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/rhu/girl.png" alt="Staff">
+<img src="assets/rhu/cendy.jfif" alt="Staff">
 <h3>Cendy M. Mebrano</h3>
 <p>Admin Aid / Utility Worker</p>
 </div>

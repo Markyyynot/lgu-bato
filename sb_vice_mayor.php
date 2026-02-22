@@ -216,7 +216,7 @@
     <div class="officials-grid">
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/ryan.jpg">
+            <img src="assets/vice/ryan.JPG">
             <h3>Hon. Ryan Nile Gertos</h3>
             <p>Sangguniang Bayan Member</p>
         </div>
@@ -228,19 +228,19 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/raul.jpg">
+            <img src="assets/vice/raul.JPG">
             <h3>Hon. Raul M. Acenas</h3>
             <p>Sangguniang Bayan Member</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/marissa.jpg">
+            <img src="assets/vice/marissa.JPG">
             <h3>Hon. Marissa M. Rojas</h3>
             <p>Sangguniang Bayan Member</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/gerry.jpg">
+            <img src="assets/vice/gerry.JPG">
             <h3>Hon. Gerry E. Aureo</h3>
             <p>Sangguniang Bayan Member</p>
         </div>
@@ -252,13 +252,13 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/herbert.jpg">
+            <img src="assets/vice/herbert.JPG">
             <h3>Hon. Herbert B. Salazar</h3>
             <p>Sangguniang Bayan Member</p>
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/arnold.jpg">
+            <img src="assets/vice/arnold.JPG">
             <h3>Hon. Arnulfo B. Taneo</h3>
             <p>Sangguniang Bayan Member</p>
         </div>
@@ -270,7 +270,7 @@
         </div>
 
         <div class="official-card scroll-animate">
-            <img src="assets/vice/jia.jpg">
+            <img src="assets/vice/jia.JPG">
             <h3>Jia Marie L. Adlawon</h3>
             <p>SKF President</p>
         </div>

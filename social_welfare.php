@@ -201,7 +201,7 @@
 
 <!-- TOP OFFICIAL -->
 <div class="top-official scroll-animate">
-    <img src="assets/social/hazel.jpg">
+    <img src="assets/social/hazel.JPG">
     <h3>Hazel Dinah D. Miel</h3>
     <p>Municipal Social Welfare and Development Officer</p>
 </div>
@@ -216,13 +216,13 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/lea.jpg">
+<img src="assets/social/lea.JPG">
 <h3>Lea Marie C. Garzon</h3>
 <p>Social Worker (JO)</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/ronalyn.jpg">
+<img src="assets/social/ronalyn.JPG">
 <h3>Ronalyn G. Sale</h3>
 <p>Social Worker (JO)</p>
 </div>
@@ -234,13 +234,13 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/mary.jpg">
+<img src="assets/social/mary.JPG">
 <h3>Mary Daisy P. Pan</h3>
 <p>Administrative Aide I (Social Worker)</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/florian.jpg">
+<img src="assets/social/florian.JPG">
 <h3>Florian V. Cahambing</h3>
 <p>Administrative Aide I</p>
 </div>
@@ -252,25 +252,25 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/criselda.jpg">
+<img src="assets/social/criselda.JPG">
 <h3>Criselda S. Talamo</h3>
 <p>Administrative Aide I</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/roy.jpg">
+<img src="assets/social/roy.JPG">
 <h3>Roy Echevarria</h3>
 <p>Day Care Worker II</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/kennie.jpg">
+<img src="assets/social/kennie.JPG">
 <h3>Kennie Marie R. Adlawon</h3>
 <p>Focal – Walang Gutom Program Job Order</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/ynna.jpg">
+<img src="assets/social/ynna.JPG">
 <h3>Ynna Mendoza</h3>
 <p>Job Order</p>
 </div>
@@ -282,7 +282,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/social/analyn.jpg">
+<img src="assets/social/analyn.JPG">
 <h3>Analyn U. Compendio</h3>
 <p>Job Order (JO)</p>
 </div>

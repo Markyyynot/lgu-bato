@@ -198,7 +198,7 @@
 
 <!-- TOP OFFICIAL -->
 <div class="top-official scroll-animate">
-    <img src="assets/engineering/miguelito.jpg" alt="Engineer">
+    <img src="assets/engineering/miguelito.JPG" alt="Engineer">
     <h3>Engr. Miguelito L. Sablada</h3>
     <p>Municipal Engineer</p>
 </div>
@@ -207,7 +207,7 @@
 <div class="officials-grid">
 
 <div class="official-card scroll-animate">
-<img src="assets/engineering/jomar.jpg" alt="Staff">
+<img src="assets/engineering/jomar.JPG" alt="Staff">
 <h3>Engr. Jomar P. Sabandal</h3>
 <p>Department Head / Municipal Government Assistant (Dept. Head)</p>
 </div>
@@ -219,7 +219,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/engineering/vanessa.jpg" alt="Staff">
+<img src="assets/engineering/vanessa.JPG" alt="Staff">
 <h3>Krista Vanessa P. Catambacan</h3>
 <p>Construction and Maintenance Foreman</p>
 </div>
@@ -237,7 +237,7 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/engineering/girl.png" alt="Staff">
+<img src="assets/engineering/diannica.jpg" alt="Staff">
 <h3>Diannica S. Saja</h3>
 <p>Office Clerk (Engineering Assistant)</p>
 </div>
@@ -261,13 +261,13 @@
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/engineering/marlon.jpg" alt="Staff">
+<img src="assets/engineering/marlon.JPG" alt="Staff">
 <h3>Marlon S. Idoy</h3>
 <p>Office Clerk</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/engineering/fregie.jpg" alt="Staff">
+<img src="assets/engineering/fregie.JPG" alt="Staff">
 <h3>Fregie P. Torres</h3>
 <p>Administrative Aide I</p>
 </div>

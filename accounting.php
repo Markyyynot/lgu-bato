@@ -207,7 +207,7 @@
 
     <!-- ACCOUNTING OFFICER -->
     <div class="top-official scroll-animate">
-        <img src="assets/accounting/maria.jpg" alt="Accounting Officer">
+        <img src="assets/accounting/maria.JPG" alt="Accounting Officer">
         <h3>Maria Roquesa J. Saveron</h3>
         <p>Municipal Accountant</p>
     </div>
@@ -225,7 +225,7 @@
             <p>Administrative Aide III</p>
         </div>
         <div class="official-card scroll-animate">
-            <img src="assets/accounting/joaquin.jpg" alt="Staff">
+            <img src="assets/accounting/joaquin.JPG" alt="Staff">
             <h3>Joaquin E. Solante JR.</h3>
             <p>Administrative Aide III</p>
         </div>
