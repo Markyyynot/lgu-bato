@@ -412,191 +412,205 @@ table a:hover {
 
                     <tr>
                         <td>EO No. 0020-2025</td>
-                        <td>AUTHORIZING THE CONDITIONAL RELEASE OF BUSINESS PERMITS</td>
-                        <td>Feb 11, 2025</td>
+                        <td>SUSPENSION OF WORK AND CLASSES</td>
+                        <td>Sept 25, 2025</td>
                         <td><a href="assets/eo/2025/eo0020.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0019-2025</td>
-                        <td>CREATING THE DENGUE TASK FORCE AND ESTABLISHING GUIDELINES FOR DENGUE PREVENTION</td>
-                        <td>Feb 10, 2025</td>
+                        <td>LOCAL SCHOOL BOARD</td>
+                        <td>Aug 6, 2025</td>
                         <td><a href="assets/eo/2025/eo0019.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0018-2025</td>
-                        <td>SUSPENSION OF CLASSES</td>
-                        <td>Feb 10, 2025</td>
+                        <td>DESIGNATING PWD FOCAL PERSON</td>
+                        <td>Aug 6, 2025</td>
                         <td><a href="assets/eo/2025/eo0018.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0017-2025</td>
-                        <td>REORGANIZING DRINKING WATER QUALITY</td>
-                        <td>Feb 9, 2025</td>
+                        <td>DESIGNATING ARSENIO G. GERTOS JR. AS THE MUNICIPAL STATISTICIAN</td>
+                        <td>Aug 6, 2025</td>
                         <td><a href="assets/eo/2025/eo0017.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0005-2025</td>
-                        <td>SUSPENSION OF CLASSES DUE TO TYPHOON BASYANG</td>
-                        <td>Feb 5, 2025</td>
-                        <td><a href="assets/eo/2025/eo005.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0016-2025</td>
+                        <td>DESIGNATING RIZALINA M. BUZON AS DATA PROTECTION OFFICER</td>
+                        <td>Aug 6, 2025</td>
+                        <td><a href="assets/eo/2025/eo0016.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0004-2025</td>
-                        <td>REORGANIZING GRIEVANCE COMMITTEE</td>
-                        <td>Jan 29, 2025</td>
-                        <td><a href="assets/eo/2025/eo004.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0015-2025</td>
+                        <td>LYDC</td>
+                        <td>Aug 6, 2025</td>
+                        <td><a href="assets/eo/2025/eo0015.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0003-2025</td>
-                        <td>SUSPENSION OF CLASSES AND WORK AFTER FIESTA</td>
-                        <td>Jan 25, 2025</td>
-                        <td><a href="assets/eo/2025/eo003.docx">DOWNLOAD</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>EO No. 0002-2025</td>
-                        <td>MUNICIPAL AWARDS COMMITTEE</td>
-                        <td>Jan 19, 2025</td>
-                        <td><a href="assets/eo/2025/eo002.docx">DOWNLOAD</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>EO No. 0001-2025</td>
-                        <td>OPENING SALVO</td>
-                        <td>Jan 15, 2025</td>
-                        <td><a href="assets/eo/2025/eo001.docx">DOWNLOAD</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>EO No. 0012-2025</td>
-                        <td>REORGANIZATION OF THE MUNICIPAL SOLID WASTE MANAGEMENT BOARD (MSWMB)</td>
-                        <td>Feb 19, 2025</td>
-                        <td><a href="assets/eo/2025/eo0012.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0014-2025</td>
+                        <td>REORGANIZING THE MUNICIPAL DRINKING WATER QUALITY MONITORING COMMITTEE</td>
+                        <td>Aug 5, 2025</td>
+                        <td><a href="assets/eo/2025/eo0014.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0013-2025</td>
-                        <td>REORGANIZING THE MUNICIPAL EPIDEMIOLOGY AND SURVEILLANCE UNIT</td>
-                        <td>Feb 16, 2025</td>
+                        <td>LOCAL WATER QUALITY MONITORING UNIT</td>
+                        <td>Aug 5, 2025</td>
                         <td><a href="assets/eo/2025/eo0013.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
+                        <td>EO No. 0012-2025</td>
+                        <td>LOCAL WETLANDS MANAGEMENT COUNCIL</td>
+                        <td>Aug 5, 2025</td>
+                        <td><a href="assets/eo/2025/eo0012.docx">DOWNLOAD</a></td>
+                    </tr>
+
+                    <tr>
                         <td>EO No. 0011-2025</td>
-                        <td>RECONSTITUTING THE MUNICIPAL PROJECT MONITORING COMMITTEE</td>
-                        <td>Feb 16, 2025</td>
+                        <td>WILDLIFE MONITORING AND ENFORCEMENT TASK FORCE</td>
+                        <td>Aug 5, 2025</td>
                         <td><a href="assets/eo/2025/eo0011.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0010-2025</td>
-                        <td>CREATING THE PARK AND GREEN SPACE MANAGEMENT COMMITTEE</td>
-                        <td>Feb 13, 2025</td>
+                        <td>SOLID WASTE MANAGEMENT BOARD</td>
+                        <td>Aug 5, 2025</td>
                         <td><a href="assets/eo/2025/eo0010.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0009-2025</td>
-                        <td>AUTHORIZING THE CONDITIONAL RELEASE OF BUSINESS PERMITS</td>
-                        <td>Feb 11, 2025</td>
-                        <td><a href="assets/eo/2025/eo009.docx">DOWNLOAD</a></td>
+                        <td>CREATING THE MUNICIPAL LITERACY COUNCIL</td>
+                        <td>July 25, 2025</td>
+                        <td><a href="assets/eo/2025/eo0009.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0008-2025</td>
-                        <td>CREATING THE DENGUE TASK FORCE AND ESTABLISHING GUIDELINES FOR DENGUE PREVENTION</td>
-                        <td>Feb 10, 2025</td>
-                        <td><a href="assets/eo/2025/eo008.docx">DOWNLOAD</a></td>
+                        <td>CLASS SUSPENSION 17 JULY 2025 HEAVY RAINS</td>
+                        <td>July 17, 2025</td>
+                        <td><a href="assets/eo/2025/eo0008.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0007-2025</td>
-                        <td>SUSPENSION OF CLASSES</td>
-                        <td>Feb 10, 2025</td>
-                        <td><a href="assets/eo/2025/eo007.docx">DOWNLOAD</a></td>
+                        <td>DECLARING THE SUSPENSION OF OFFICE WORK AND CLASSES - OPENING SALVO</td>
+                        <td>May 2, 2025</td>
+                        <td><a href="assets/eo/2025/eo0007.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0006-2025</td>
-                        <td>REORGANIZING DRINKING WATER QUALITY</td>
-                        <td>Feb 9, 2025</td>
-                        <td><a href="assets/eo/2025/eo006.docx">DOWNLOAD</a></td>
+                        <td>REORGANIZATION OF THE HRMPSB</td>
+                        <td>April 2, 2025</td>
+                        <td><a href="assets/eo/2025/eo0006.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0005-2025</td>
-                        <td>SUSPENSION OF CLASSES DUE TO TYPHOON BASYANG</td>
-                        <td>Feb 5, 2025</td>
-                        <td><a href="assets/eo/2025/eo005.docx">DOWNLOAD</a></td>
+                        <td>RECONSTITUTING BAC</td>
+                        <td>July 1, 2025</td>
+                        <td><a href="assets/eo/2025/eo0005.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0004-2025</td>
-                        <td>REORGANIZING GRIEVANCE COMMITTEE</td>
-                        <td>Jan 29, 2025</td>
-                        <td><a href="assets/eo/2025/eo004.docx">DOWNLOAD</a></td>
+                        <td>INVENTORY COMMITTEE</td>
+                        <td>July 1, 2025</td>
+                        <td><a href="assets/eo/2025/eo0004.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0003-2025</td>
-                        <td>SUSPENSION OF CLASSES AND WORK AFTER FIESTA</td>
-                        <td>Jan 25, 2025</td>
-                        <td><a href="assets/eo/2025/eo003.docx">DOWNLOAD</a></td>
+                        <td>AN ORDER RECONSTITUTING THE COMPOSITION OF MUNICIPAL NUTRITION COMMITTEE</td>
+                        <td>July 1, 2025</td>
+                        <td><a href="assets/eo/2025/eo0003.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0002-2025</td>
-                        <td>MUNICIPAL AWARDS COMMITTEE</td>
-                        <td>Jan 19, 2025</td>
-                        <td><a href="assets/eo/2025/eo002.docx">DOWNLOAD</a></td>
+                        <td>REORGANIZATION OF THE MUNICIPAL DISASTER RISK REDUCTION AND MANAGEMENT COUNCIL</td>
+                        <td>Oct 3, 2025</td>
+                        <td><a href="assets/eo/2025/eo0002.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>EO No. 0001-2025</td>
-                        <td>OPENING SALVO</td>
-                        <td>Jan 15, 2025</td>
-                        <td><a href="assets/eo/2025/eo001.docx">DOWNLOAD</a></td>
+                        <td>LOCAL YOUTH DEVELOPMENT OFFICER</td>
+                        <td>July 1, 2025</td>
+                        <td><a href="assets/eo/2025/eo0001.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0013-2025</td>
-                        <td>REORGANIZING THE MUNICIPAL EPIDEMIOLOGY AND SURVEILLANCE UNIT</td>
-                        <td>Feb 16, 2025</td>
-                        <td><a href="assets/eo/2025/eo0013.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0040S-2025</td>
+                        <td>CREATING TOURISM DESK</td>
+                        <td>Feb 12, 2025</td>
+                        <td><a href="assets/eo/2025/eo0040S.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0011-2025</td>
-                        <td>RECONSTITUTING THE MUNICIPAL PROJECT MONITORING COMMITTEE</td>
-                        <td>Feb 16, 2025</td>
-                        <td><a href="assets/eo/2025/eo0011.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0030S-2025</td>
+                        <td>SPECIAL DRUG EDUCATION CENTER AND TEAM</td>
+                        <td>Nov 28, 2025</td>
+                        <td><a href="assets/eo/2025/eo0030S.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0010-2025</td>
-                        <td>CREATING THE PARK AND GREEN SPACE MANAGEMENT COMMITTEE</td>
-                        <td>Feb 13, 2025</td>
-                        <td><a href="assets/eo/2025/eo0010.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0007S-2025</td>
+                        <td>DOH-HRH SAFETY AND SECURITY COMMITTEE</td>
+                        <td>May 2, 2025</td>
+                        <td><a href="assets/eo/2025/eo0007S.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0013-2025</td>
-                        <td>REORGANIZING THE MUNICIPAL EPIDEMIOLOGY AND SURVEILLANCE UNIT</td>
-                        <td>Feb 16, 2025</td>
-                        <td><a href="assets/eo/2025/eo0013.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0006S-2025</td>
+                        <td>LOCAL GOVERNANCE TRANSITION TEAM</td>
+                        <td>April 2, 2025</td>
+                        <td><a href="assets/eo/2025/eo0006S.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
-                        <td>EO No. 0011-2025</td>
-                        <td>RECONSTITUTING THE MUNICIPAL PROJECT MONITORING COMMITTEE</td>
-                        <td>Feb 16, 2025</td>
-                        <td><a href="assets/eo/2025/eo0011.docx">DOWNLOAD</a></td>
+                        <td>EO No. 0005S-2025</td>
+                        <td>PUROKALUSUGAN HEALTH TEAM</td>
+                        <td>March 19, 2025</td>
+                        <td><a href="assets/eo/2025/eo0005S.docx">DOWNLOAD</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>EO No. 0004S-2025</td>
+                        <td>MUNICIPAL AWARDS COMMITTEE</td>
+                        <td>Feb 12, 2025</td>
+                        <td><a href="assets/eo/2025/eo0004S.docx">DOWNLOAD</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>EO No. 0003S-2025</td>
+                        <td>MUNICIPAL IMPLEMENTING TEAM FOR THE RESPONSIBLE PARENTHOOD AND REPRODUCTIVE HEALTH</td>
+                        <td>Feb 12, 2025</td>
+                        <td><a href="assets/eo/2025/eo0003S.docx">DOWNLOAD</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>EO No. 0002S-2025</td>
+                        <td> SUSPENSION OF WORK AND CLASSES</td>
+                        <td>Jan 23, 2025</td>
+                        <td><a href="assets/eo/2025/eo0002S.docx">DOWNLOAD</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>EO No. 0001S-2025</td>
+                        <td>REORGANIZATION OF THE MUNICIPAL HIV AIDS COUNCIL</td>
+                        <td>Jan 13, 2025</td>
+                        <td><a href="assets/eo/2025/eo0001S.docx">DOWNLOAD</a></td>
                     </tr>
                 </tbody>
             </table>

@@ -179,7 +179,7 @@ body {
                 <div class="report-card">
                     <h3>Supplemental APP-CSE</h3>
                     <p>Supplemental Annual Procurement Plan for Common-Use Supplies and Equipment.</p>
-                    <span class="report-link">📄 View Document</span>
+                    <span class="report-link">📄 View APP-CSE</span>
                 </div>
             </a>
 

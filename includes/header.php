@@ -187,10 +187,10 @@
         </a>
         <div class="dropdown-menu">
             <a href="executive.php" class="<?= $currentPage == 'executive.php' ? 'active' : '' ?>">
-                <i class="fa-solid fa-user-tie"></i> Executive Department
+                <i class="fa-solid fa-user-tie"></i> Executive Department<i class="fa-solid fa-arrow-right"></i>
             </a>
             <a href="legislative.php" class="<?= $currentPage == 'legislative.php' ? 'active' : '' ?>">
-                <i class="fa-solid fa-scale-balanced"></i> Legislative Department
+                <i class="fa-solid fa-scale-balanced"></i> Legislative Department<i class="fa-solid fa-arrow-right"></i>
             </a>
             <a href="barangay.php" class="<?= $currentPage == 'barangay.php' ? 'active' : '' ?>">
                 <i class="fa-solid fa-people-group"></i> Barangay
@@ -241,10 +241,10 @@
                 <i class="fa-solid fa-envelope-open-text"></i> Invitation to BID
             </a>
             <a href="documentation.php" class="<?= $currentPage == 'documentation.php' ? 'active' : '' ?>">
-                <i class="fa-solid fa-file-contract"></i> Procurement Documentation
+                <i class="fa-solid fa-file-contract"></i> Procurement Documentation<i class="fa-solid fa-arrow-right"></i>
             </a>
             <a href="reports.php" class="<?= $currentPage == 'reports.php' ? 'active' : '' ?>">
-                <i class="fa-solid fa-chart-line"></i> Procurement Reports
+                <i class="fa-solid fa-chart-line"></i> Procurement Reports<i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
     </div>

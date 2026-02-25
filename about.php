@@ -1,8 +1,42 @@
 <?php include 'includes/header.php'; ?>
 
 <style>
+
+/* =======================
+BACK TO TOP BUTTON
+======================= */
+#backToTop {
+    position: fixed;
+    top: -70px; /* hidden above screen */
+    right: 20px;
+    z-index: 999;
+    background-color: #1b2a4e;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* SHOW ANIMATION */
+#backToTop.show {
+    top: 20px;
+    opacity: 1;
+}
+
+/* Hover animation */
+#backToTop:hover {
+    background-color: #ffffff;
+    color: #1b2a4e;
+    transform: translateY(-3px) scale(1.05);
+}
+
 /* ===============================
-   COLOR VARIABLES
+COLOR VARIABLES
 ================================ */
 :root {
     --blue-primary: #1e3a8a;
@@ -12,7 +46,7 @@
 }
 
 /* ===============================
-   BASE
+BASE
 ================================ */
 * {
     box-sizing: border-box;
@@ -27,7 +61,7 @@ body {
 }
 
 /* ===============================
-   SECTION CARD
+SECTION CARD
 ================================ */
 .about-section {
     width: 100%;
@@ -40,7 +74,7 @@ body {
 }
 
 /* ===============================
-   SCROLL ANIMATION (ADDED)
+SCROLL ANIMATION (ADDED)
 ================================ */
 .scroll-animate {
     opacity: 0;
@@ -279,7 +313,8 @@ The municipality is bordered by Matalom to the south, Hilongos to the north, and
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<button id="backToTop" title="Go to top">↑ Top</button>
+
 
 <!-- SCROLL SCRIPT -->
 <script>
@@ -302,4 +337,26 @@ document.addEventListener("DOMContentLoaded", function () {
     elements.forEach(el => observer.observe(el));
 
 });
+
+const backToTopBtn = document.getElementById("backToTop");
+
+// Show button when scrolling down
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 250) {
+        backToTopBtn.classList.add("show");
+    } else {
+        backToTopBtn.classList.remove("show");
+    }
+});
+
+// Smooth scroll to top
+backToTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
 </script>
+
+<?php include 'includes/footer.php'; ?>

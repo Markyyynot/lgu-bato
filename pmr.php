@@ -19,9 +19,9 @@ body {
 .page-header {
     display: flex;
     align-items: center;
-    justify-content: center; /* center title & button */
+    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* wrap on small screens */
+    flex-wrap: wrap;
     margin: 30px 0 60px;
 }
 
@@ -64,12 +64,18 @@ body {
     transform: translateX(-5px);
 }
 
-/* CONTENT */
+/* ===========================
+   CONTENT GRID (FIXED)
+=========================== */
 .content-section {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto 80px;
     padding: 0 20px;
-    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* horizontal layout */
+    gap: 30px;
+    justify-items: center;
 }
 
 /* DOCUMENT CARD */
@@ -78,9 +84,10 @@ body {
     padding: 40px 30px;
     border-radius: 14px;
     box-shadow: 0 10px 25px rgba(27, 42, 78, 0.15);
-    max-width: 600px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
 }
 
 .document-card:hover {
@@ -121,22 +128,34 @@ body {
     .mayor-title {
         font-size: 36px;
     }
+
     .document-card p {
         font-size: 16px;
     }
+
     .document-card a {
         font-size: 15px;
         padding: 12px 22px;
     }
+
     .back-btn {
         padding: 8px 14px;
         gap: 6px;
     }
+
     .back-btn i {
         font-size: 1rem;
     }
+
     .back-btn span {
         font-size: 15px;
+    }
+}
+
+/* Stack cards on tablet/mobile */
+@media (max-width: 900px) {
+    .content-section {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -145,23 +164,29 @@ body {
     .mayor-title {
         font-size: 32px;
     }
+
     .document-card {
         padding: 30px 20px;
     }
+
     .document-card p {
         font-size: 15px;
     }
+
     .document-card a {
         font-size: 14px;
         padding: 12px 20px;
     }
+
     .back-btn {
         padding: 7px 12px;
         gap: 5px;
     }
+
     .back-btn i {
         font-size: 0.95rem;
     }
+
     .back-btn span {
         font-size: 14px;
     }
@@ -172,20 +197,25 @@ body {
     .mayor-title {
         font-size: 28px;
     }
+
     .document-card p {
         font-size: 14px;
     }
+
     .document-card a {
         font-size: 13px;
         padding: 10px 18px;
     }
+
     .back-btn {
         padding: 6px 10px;
         gap: 4px;
     }
+
     .back-btn i {
         font-size: 0.85rem;
     }
+
     .back-btn span {
         font-size: 13px;
     }
@@ -193,23 +223,34 @@ body {
 </style>
 
 <section>
-    <!-- BACK + TITLE FLEX -->
+    <!-- BACK + TITLE -->
     <div class="page-header">
         <div class="back-btn" onclick="history.back()">
             <i class="fa-solid fa-arrow-left"></i>
             <span>Back</span>
         </div>
-        <h2 class="mayor-title"><i class="fa-solid fa-scroll"></i>Procurement Monitoring Report</h2>
+
+        <h2 class="mayor-title">
+            <i class="fa-solid fa-scroll"></i>
+            Procurement Monitoring Report
+        </h2>
     </div>
 
-    <!-- DOCUMENT CARD -->
+    <!-- DOCUMENT GRID -->
     <div class="content-section">
+
         <div class="document-card">
-            <p>
-                Access the Procurement Monitoring Report to check the status and progress of procurement activities.
-            </p>
-            <a href="documents/procurement-monitoring-report.pdf" target="_blank">📄 View PMR</a>
+            <img src="assets/pmr/1.jpeg" alt="PMR Cover"style="width:100%; border-radius:8px; margin-bottom:20px;">
+            <p>Department of Budget and Management Annual Procurement Plan JAN-JUN-2023</p>
+            <a href="assets/pmr/1.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
+
+        <div class="document-card">
+            <img src="assets/pmr/2.jpeg" alt="PMR Cover"style="width:100%; border-radius:8px; margin-bottom:20px;">
+            <p>Department of Budget and Management Annual Procurement Plan JAN-DEC-2023</p>
+            <a href="assets/pmr/2.xlsx" target="_blank">📄 DOWNLOAD</a>
+        </div>
+
     </div>
 </section>
 

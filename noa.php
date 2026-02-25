@@ -4,6 +4,37 @@ include 'includes/header.php';
 ?>
 
 <style>
+
+#backToTop {
+    position: fixed;
+    top: -70px; /* hidden above screen */
+    right: 20px;
+    z-index: 999;
+    background-color: #1b2a4e;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* SHOW ANIMATION */
+#backToTop.show {
+    top: 20px;
+    opacity: 1;
+}
+
+/* Hover animation */
+#backToTop:hover {
+    background-color: #ffffff;
+    color: #1b2a4e;
+    transform: translateY(-3px) scale(1.05);
+}
+
 /* BASE STYLES */
 body {
     background-color: #f5f0e6;
@@ -154,33 +185,75 @@ body {
 
             <!-- NOA CARD 1 -->
             <div class="noa-card">
-                <h3>Municipal Hall Construction</h3>
-                <p>Notice of Award for the construction of the Municipal Hall.</p>
-                <a href="documents/noa-municipal-hall.pdf" class="noa-link" target="_blank">
+                <img src="assets/noa/1.jpg" alt="NOA for Baywalk Essentials Facilities Rehabilitation" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                <p>Rehabilitation of Baywalk Essentials Facilities at Bato Baywalk, Barangay Kalanggaman, Bato, Leyte</p>
+                <a href="assets/noa/1.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
 
             <!-- NOA CARD 2 -->
             <div class="noa-card">
-                <h3>School Supplies Procurement</h3>
+                <img src="assets/noa/2.jpg" alt="NOA for School Supplies Procurement" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
                 <p>Notice of Award for the procurement of school supplies.</p>
-                <a href="documents/noa-school-supplies.pdf" class="noa-link" target="_blank">
+                <a href="assets/noa/2.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
 
             <!-- NOA CARD 3 -->
             <div class="noa-card">
-                <h3>Road Maintenance Project</h3>
-                <p>Notice of Award for barangay road maintenance works.</p>
-                <a href="documents/noa-road-maintenance.pdf" class="noa-link" target="_blank">
+                <img src="assets/noa/3.jpg" alt="NOA for Covered Court Construction" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                <p>Construction of Covered Court (Phase 1), Brgy. Tabunok, Bato, Leyte</p>
+                <a href="assets/noa/3.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
 
-        </div>
+            <!-- NOA CARD 4 -->
+            <div class="noa-card">
+                <img src="assets/noa/4.jpg" alt="NOA for Medical Supplies Procurement" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                <p>Procurement of Medical Supplies for Material Child Health Program of RHU-Bato, Leyte</p>
+                <a href="assets/noa/4.pdf" class="noa-link" target="_blank">
+                    📄 View NOA
+                </a>
+            </div>
+
+            <!-- NOA CARD 5 -->
+            <div class="noa-card">
+                <img src="assets/noa/5.jpg" alt="NOA for Bato Wet Market Rehabilitation" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                <p>Rehabilitation of Bato Wet Market Building, Brgy. Iniguihan, Bato, Leyte </p>
+                <a href="assets/noa/5.pdf" class="noa-link" target="_blank">
+                    📄 View NOA
+                </a>
+            </div>
     </div>
+
 </section>
+
+<button id="backToTop" title="Go to top">↑ Top</button>
+
+
+<script>
+    const backToTopBtn = document.getElementById("backToTop");
+
+// Show button when scrolling down
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 250) {
+        backToTopBtn.classList.add("show");
+    } else {
+        backToTopBtn.classList.remove("show");
+    }
+});
+
+// Smooth scroll to top
+backToTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
+</script>
 
 <?php include 'includes/footer.php'; ?>

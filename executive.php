@@ -1,8 +1,10 @@
 <?php include 'includes/header.php'; ?>
 
 <section class="officials-section ">
-    <h2 class="mayor-title"><i class="fa-solid fa-user-tie"></i>Executive Department</h2>
-
+<div class="officials-header">
+    <h2 class="mayor-title"><i class="fa-solid fa-user-tie"></i> Executive Department</h2>
+    <input type="text" id="officeSearch" placeholder="🔍 Search office...">
+</div>
     <div class="officials-grid">
 
         <a href="mayor.php" class="official-card office-card scroll-animate">
@@ -72,6 +74,32 @@
 
 
 <style>
+
+/* HEADER WITH SEARCH BAR */
+.officials-header {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#officeSearch {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px solid #1b2a4e;
+    outline: none;
+    font-size: 14px;
+    width: 260px;
+    transition: 0.3s ease;
+}
+
+#officeSearch:focus {
+    border-color: #c9a227;
+    box-shadow: 0 0 8px rgba(27,42,78,0.2);
+}
 
 #backToTop {
     position: fixed;
@@ -154,6 +182,20 @@ backToTopBtn.addEventListener("click", function () {
     });
 });
 
+// Office Search Filter
+document.getElementById("officeSearch").addEventListener("keyup", function () {
+    const searchValue = this.value.toLowerCase();
+    const cards = document.querySelectorAll(".official-card");
+
+    cards.forEach(card => {
+        const name = card.querySelector(".office-name").textContent.toLowerCase();
+        if (name.includes(searchValue)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
 </script>
 
 <?php include 'includes/footer.php'; ?>

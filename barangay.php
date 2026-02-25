@@ -1,8 +1,13 @@
 <?php include 'includes/header.php'; ?>
 
 <section>
-    <h2 class="mayor-title" style="text-align: center;"><i class="fa-solid fa-people-group"></i>Barangay Information</h2>
+<div class="barangay-header">
+    <h2 class="mayor-title">
+        <i class="fa-solid fa-people-group"></i> Barangay Information
+    </h2>
 
+    <input type="text" id="barangaySearch" placeholder="🔍 Search barangay...">
+</div>
     <div class="officials-grid">
         <?php
         $barangays = [
@@ -71,6 +76,33 @@
 
 
 <style>
+
+/* HEADER WITH SEARCH BAR */
+.barangay-header {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#barangaySearch {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px solid #1b2a4e;
+    outline: none;
+    font-size: 14px;
+    width: 260px;
+    transition: 0.3s ease;
+}
+
+#barangaySearch:focus {
+    border-color: #c9a227;
+    box-shadow: 0 0 8px rgba(27,42,78,0.2);
+}
+
 /* Grid layout (reuse your existing style if needed) */
 .officials-grid {
     display: grid;
@@ -160,6 +192,21 @@ backToTopBtn.addEventListener("click", function () {
     });
 });
 
+// Barangay Search Filter
+document.getElementById("barangaySearch").addEventListener("keyup", function () {
+    const searchValue = this.value.toLowerCase();
+    const cards = document.querySelectorAll(".official-card");
+
+    cards.forEach(card => {
+        const name = card.querySelector(".barangay-name").textContent.toLowerCase();
+
+        if (name.includes(searchValue)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
 
 </script>
 
