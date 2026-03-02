@@ -208,63 +208,63 @@ table a:hover {
                         <td>Procurement of Office supplies and consumables for the 1st quarter of 2025, Bato, Leyte.</td>
                         <td>11750229</td>
                         <td>Feb 11, 2025</td>
-                        <td><a href="assets/itb/itb1.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/ProcurementofOfficesupplies.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>DRUGS AND MEDICINES FOR RHU</td>
                         <td>11745907</td>
                         <td>Feb 10, 2025</td>
-                        <td><a href="assets/itb/itb2.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/DRUGSANDMEDICINESFORRHU.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Provision of Sound System Service for the 139th Joint Parish & LGU Founding Anniversary</td>
                         <td>12148748</td>
                         <td>June 19, 2025</td>
-                        <td><a href="assets/itb/itb3.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/ProvisionofSoundSystemService.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Provision of Meals for the 139th Joint Parish & LGU Founding Anniversary</td>
                         <td>12148689</td>
                         <td>June 19, 2025</td>
-                        <td><a href="assets/itb/itb4.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/ProvisionofMeals.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Rehabilitation of Bato Wet Market Building</td>
                         <td>11733980</td>
                         <td>Feb 6, 2025</td>
-                        <td><a href="assets/itb/itb5.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/RehabilitationofBatoWetMarket.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Crawler Excavator</td>
                         <td>11750229</td>
                         <td>Feb 11, 2025</td>
-                        <td><a href="assets/itb/itb6.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/CrawlerExcavator.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Post Closure Project Phase II</td>
                         <td>11702986</td>
                         <td>Jan 28, 2025</td>
-                        <td><a href="assets/itb/itb7.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/PostClosureProjectPhaseII.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Dumptruck</td>
                         <td>11678513</td>
                         <td>Jan 21, 2025</td>
-                        <td><a href="assets/itb/itb8.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/Dumptruck.docx">DOWNLOAD</a></td>
                     </tr>
 
                     <tr>
                         <td>Heavy Duty Glass Crusher</td>
                         <td>11678482</td>
                         <td>Jan 21, 2025</td>
-                        <td><a href="assets/itb/itb9.docx">DOWNLOAD</a></td>
+                        <td><a href="assets/itb/HeavyDutyGlassCrusher.docx">DOWNLOAD</a></td>
                     </tr>
                 </tbody>
             </table>

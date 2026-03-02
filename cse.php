@@ -243,73 +243,73 @@ body {
         <div class="document-card">
             <img src="assets/app-cse/11.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>ANNUAL PROCUREMENT PLAN - COMMON-USE SUPPLIES AND EQUIPMENT (APP-CSE) 2024 FORM</p>
-            <a href="assets/app-cse/11.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app-cse/ANNUALPROCUREMENTPLAN-COMMON-USESUPPLIESANDEQUIPMENT(APP-CSE)2024FORM.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/12.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>ANNUAL PROCUREMENT PLAN - COMMON-USE SUPPLIES AND EQUIPMENT (APP-CSE) 2024 FORM - OTHER ITEMS</p>
-            <a href="assets/app-cse/12.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/ANNUALPROCUREMENTPLAN-COMMON-USESUPPLIESANDEQUIPMENT(APP-CSE)2024FORMOTHERITEMS.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/1.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Rehabilitation of Port Essential Facilities (Guard Post, Male CR, Causeway Damage Portion), Brgy. Kalanggaman & Brgy. Iniguihan, Bato, Leyte</p>
-            <a href="assets/app-cse/01.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app-cse/RehabilitationofPortEssentialFacilities(GuardPost,MaleCR,CausewayDamagePortion),Brgy.Kalanggaman&Brgy.Iniguihan,Bato,Leyte.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/2.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Rehabilitation of Port Essential Facilities (Guard Post, Male CR, Causeway Damage Portion), Brgy. Kalanggaman & Brgy. Iniguihan, Bato, Leyte</p>
-            <a href="assets/app-cse/02.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/RehabilitationofPortEssentialFacilities.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/3.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurment of One (1) Unit Brand New Crawler Excavator for use in Solid Waste Management and in the Proposed Sanitary Landfill in Brgy. Tagaytay, Bato, Leyte</p>
-            <a href="assets/app-cse/03.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurmentofOne(1)UnitBrandNewCrawlerExcavator.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/4.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of One (1) Unit Brand New Heavy Duty Glass Crusher for use in the Solid Waste Management and in the Proposed Sanitary Landfill of Brgy. Tagaytay, Bato, Leyte</p>
-            <a href="assets/app-cse/04.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurementofOne(1)UnitBrandNewHeavyDutyGlassCrusher.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/5.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of One (1)Unit Brand New 4 x 2, 6 Wheeler Dumptruck, 10cu.m. for Solid Waste Management and in the Proposed Sanitary Landfill of Brgy. Tagaytay, Bato, Leyte</p>
-            <a href="assets/app-cse/05.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurementofOne(1)UnitBrandNew4x26WheelerDumptruck.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/6.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of Fuel, Oil and Lubricants for use in all Vehicles of LGU (Light and Heavy), Bato, Leyte</p>
-            <a href="assets/app-cse/06.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurementofFuelOilandLubricants.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/7.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Rehabilitation of Bato Wet Market Building, Brgy. Iniguihan, Bato, Leyte</p>
-            <a href="assets/app-cse/07.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/RehabilitationofBatoWetMarketBuilding,Brgy.Iniguihan,Bato,Leyte.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/8.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of Drugs and Medicines for RHU- Bato, Leyte.</p>
-            <a href="assets/app-cse/08.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurementofDrugsandMedicinesforRHU-Bato,Leyte.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/9.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of Office Supplies and Consumables for the 1st Quarter of 2025, Bato, Leyte</p>
-            <a href="assets/app-cse/09.xlsx" target="_blank">📄DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurementofOfficeSuppliesandConsumablesforthe1stQuarterof2025,Bato,Leyte.xlsx" target="_blank">📄DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app-cse/10.jpeg" alt="APP-CSE Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of Medical Supplies for Animal Bite Program Services for RHU- Bato, Leyte</p>
-            <a href="assets/app-cse/10.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app-cse/ProcurementofMedicalSuppliesforAnimalBiteProgramServicesforRHU-Bato,Leyte.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
     </div>

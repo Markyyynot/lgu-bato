@@ -103,10 +103,10 @@ body {
     max-width: 1100px;
     margin: 0 auto 80px;
     padding: 0 20px;
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
+    justify-content: center;
 }
 
 /* DOCUMENT CARD */
@@ -158,6 +158,9 @@ body {
     .document-card p {
         font-size: 16px;
     }
+        .documents-wrapper {
+        gap: 25px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -169,6 +172,10 @@ body {
     }
     .document-card p {
         font-size: 15px;
+    }
+    .documents-wrapper {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
     }
 }
 
@@ -240,37 +247,37 @@ body {
         <div class="document-card">
             <img src="assets/app/1.jpeg" alt="APP Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of Two- Unit TV Set for Mayor's Office of LGU- Bato, Leyte</p>
-            <a href="assets/app/1.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app/ProcurementofTwo-UnitTVSetforMayor'sOffice.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app/2.jpeg" alt="APP Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Construction of Septic Tank, Brgy. Iniguihan, Bato, Leyte</p>
-            <a href="assets/app/2.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app/ConstructionofSepticTank.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app/3.jpeg" alt="APP Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Construction of Naga Spillway, Brgy. Naga, Bato, Leyte</p>
-            <a href="assets/app/3.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app/ConstructionofNagaSpillway.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app/4.jpeg" alt="APP Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of Drugs and Medicines for RHU- Bato, Leyte</p>
-            <a href="assets/app/4.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app/ProcurementofDrugsandMedicinesforRHU.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app/5.jpeg" alt="APP Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Procurement of 2- unit Floor Mounted Air- Conditioning Unit for use at the Third Floor Function Hall, Municipality of Bato, Leyte</p>
-            <a href="assets/app/5.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app/Procurementof2-unitFloorMountedAir-ConditioningUnit.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/app/6.jpeg" alt="APP Cover" style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Construction of Perimeter Fence for Infirmarty Super Health Center & RHU Annex at Brgy. Iniguihan, Bato, Leyte</p>
-            <a href="assets/app/6.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/app/ConstructionofPerimeterFenceforInfirmartySuperHealthCenter&RHUAnnexatBrgy.Iniguihan.xlsx" target="_blank">📄 DOWNLOAD</a>
         </div>
 
     </div>

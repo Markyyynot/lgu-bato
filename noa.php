@@ -187,7 +187,7 @@ body {
             <div class="noa-card">
                 <img src="assets/noa/1.jpg" alt="NOA for Baywalk Essentials Facilities Rehabilitation" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
                 <p>Rehabilitation of Baywalk Essentials Facilities at Bato Baywalk, Barangay Kalanggaman, Bato, Leyte</p>
-                <a href="assets/noa/1.pdf" class="noa-link" target="_blank">
+                <a href="view-noa.php?file=RehabilitationofBaywalk.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
@@ -195,8 +195,8 @@ body {
             <!-- NOA CARD 2 -->
             <div class="noa-card">
                 <img src="assets/noa/2.jpg" alt="NOA for School Supplies Procurement" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
-                <p>Notice of Award for the procurement of school supplies.</p>
-                <a href="assets/noa/2.pdf" class="noa-link" target="_blank">
+                <p>Rehabilitation of Baywalk Essentials Facilities at Bato Baywalk, Barangay Kalanggaman, Bato, Leyte</p>
+                <a href="view-noa.php?file=RehabilitationofBaywalk2.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
@@ -205,7 +205,7 @@ body {
             <div class="noa-card">
                 <img src="assets/noa/3.jpg" alt="NOA for Covered Court Construction" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
                 <p>Construction of Covered Court (Phase 1), Brgy. Tabunok, Bato, Leyte</p>
-                <a href="assets/noa/3.pdf" class="noa-link" target="_blank">
+                <a href="view-noa.php?file=ConstructionofCoveredCourt.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
@@ -214,7 +214,7 @@ body {
             <div class="noa-card">
                 <img src="assets/noa/4.jpg" alt="NOA for Medical Supplies Procurement" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
                 <p>Procurement of Medical Supplies for Material Child Health Program of RHU-Bato, Leyte</p>
-                <a href="assets/noa/4.pdf" class="noa-link" target="_blank">
+                <a href="view-noa.php?file=ProcurementofMedicalSupplies.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>
@@ -223,7 +223,7 @@ body {
             <div class="noa-card">
                 <img src="assets/noa/5.jpg" alt="NOA for Bato Wet Market Rehabilitation" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
                 <p>Rehabilitation of Bato Wet Market Building, Brgy. Iniguihan, Bato, Leyte </p>
-                <a href="assets/noa/5.pdf" class="noa-link" target="_blank">
+                <a href="view-noa.php?file=RehabilitationofBatoWetMarket.pdf" class="noa-link" target="_blank">
                     📄 View NOA
                 </a>
             </div>

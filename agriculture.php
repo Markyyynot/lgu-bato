@@ -232,9 +232,9 @@
 
 <!-- TOP OFFICIAL -->
 <div class="top-official scroll-animate">
-    <img src="assets/agriculture/boy.png" alt="Agriculture Officer">
-    <h3>Maria Perez</h3>
-    <p>Agriculture Officer</p>
+    <img src="assets/agriculture/germano.JPG" alt="Agriculture Officer">
+    <h3>Danilo D. Germano</h3>
+    <p>Municipal Agriculturist</p>
 </div>
 
 <!-- STAFF GRID -->
@@ -242,14 +242,50 @@
 
 <div class="official-card scroll-animate">
 <img src="assets/agriculture/boy.png" alt="Staff">
-<h3>Daniel Cooper</h3>
-<p>Staff</p>
+<h3>Emmanuel S. Salvame</h3>
+<p>Agricultural Technologist</p>
 </div>
 
 <div class="official-card scroll-animate">
-<img src="assets/agriculture/boy.png" alt="Staff">
-<h3>Sophia Torres</h3>
-<p>Staff</p>
+<img src="assets/agriculture/girl.png" alt="Staff">
+<h3>Maria Luisa L. Suzon</h3>
+<p>Agricultural Technologist</p>
+</div>
+
+<div class="official-card scroll-animate">
+<img src="assets/agriculture/jardin.JPG" alt="Staff">
+<h3>Robin T. Jardin</h3>
+<p>Admin Aide I</p>
+</div>
+
+<div class="official-card scroll-animate">
+<img src="assets/agriculture/girl.png" alt="Staff">
+<h3>Lady Grace D. Batestil</h3>
+<p>Job Order</p>
+</div>
+
+<div class="official-card scroll-animate">
+<img src="assets/agriculture/crencia.JPG" alt="Staff">
+<h3>Reneboy P. Crencia</h3>
+<p>Job Order</p>
+</div>
+
+<div class="official-card scroll-animate">
+<img src="assets/agriculture/girl.png" alt="Staff">
+<h3>Neriel Mae J. Sotto</h3>
+<p>Job Order</p>
+</div>
+
+<div class="official-card scroll-animate">
+<img src="assets/agriculture/girl.png" alt="Staff">
+<h3>Stephany A. Rojas</h3>
+<p>Job Order</p>
+</div>
+
+<div class="official-card scroll-animate">
+<img src="assets/agriculture/igot.JPG" alt="Staff">
+<h3>Sammy A. Igot</h3>
+<p>Job Order</p>
 </div>
 
 </div>

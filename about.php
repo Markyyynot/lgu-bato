@@ -7,7 +7,7 @@ BACK TO TOP BUTTON
 ======================= */
 #backToTop {
     position: fixed;
-    top: -70px; /* hidden above screen */
+    top: -70px;
     right: 20px;
     z-index: 999;
     background-color: #1b2a4e;
@@ -22,13 +22,11 @@ BACK TO TOP BUTTON
     opacity: 0;
 }
 
-/* SHOW ANIMATION */
 #backToTop.show {
     top: 20px;
     opacity: 1;
 }
 
-/* Hover animation */
 #backToTop:hover {
     background-color: #ffffff;
     color: #1b2a4e;
@@ -64,17 +62,17 @@ body {
 SECTION CARD
 ================================ */
 .about-section {
-    width: 100%;
+    width: 95%;
     max-width: 1100px;
-    margin: 3rem auto;
-    padding: 2.6rem 3rem;
+    margin: clamp(1.5rem,4vw,3rem) auto;
+    padding: clamp(1.5rem,3vw,2.6rem);
     background: var(--card-bg);
     border-radius: 18px;
     box-shadow: 0 12px 35px rgba(30, 58, 138, 0.12);
 }
 
 /* ===============================
-SCROLL ANIMATION (ADDED)
+SCROLL ANIMATION
 ================================ */
 .scroll-animate {
     opacity: 0;
@@ -89,10 +87,24 @@ SCROLL ANIMATION (ADDED)
 }
 
 /* ===============================
-   HEADINGS
+   SEAL LOGO
+================================ */
+.municipal-seal {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.municipal-seal img {
+    width: clamp(90px, 18vw, 140px);
+    height: auto;
+    object-fit: contain;
+}
+
+/* ===============================
+HEADINGS
 ================================ */
 .about-section h2 {
-    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
     color: var(--blue-primary);
     margin-bottom: 1.6rem;
     position: relative;
@@ -124,17 +136,17 @@ SCROLL ANIMATION (ADDED)
 }
 
 /* ===============================
-   TEXT
+TEXT
 ================================ */
 .about-section p {
-    font-size: 1.05rem;
-    line-height: 1.85;
+    font-size: clamp(0.95rem,1.2vw,1.05rem);
+    line-height: 1.8;
     color: #444;
     text-align: justify;
 }
 
 /* ===============================
-   MISSION & VISION
+MISSION & VISION
 ================================ */
 .mission-vision {
     display: grid;
@@ -155,24 +167,19 @@ SCROLL ANIMATION (ADDED)
     transform: translateY(-5px);
 }
 
-.mv-box h3 {
-    margin-top: 0;
-    color: var(--blue-primary);
-}
-
 /* ===============================
-   POPULATION
+POPULATION
 ================================ */
 .population-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1.6rem;
 }
 
 .population-box {
     background: #f8fafc;
     border-radius: 16px;
-    padding: 2rem 1.5rem;
+    padding: 1.8rem 1rem;
     text-align: center;
     box-shadow: 0 6px 18px rgba(30,58,138,0.1);
     border-top: 4px solid var(--blue-primary);
@@ -184,7 +191,7 @@ SCROLL ANIMATION (ADDED)
 }
 
 /* ===============================
-   LOCATION
+LOCATION
 ================================ */
 .location-list {
     padding-left: 1.2rem;
@@ -195,7 +202,7 @@ SCROLL ANIMATION (ADDED)
 }
 
 /* ===============================
-   TIMELINE
+TIMELINE
 ================================ */
 .timeline {
     position: relative;
@@ -213,11 +220,11 @@ SCROLL ANIMATION (ADDED)
 }
 
 /* ===============================
-   MAP
+MAP
 ================================ */
 .map-container {
     width: 100%;
-    height: 420px;
+    height: clamp(260px, 50vw, 420px);
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(30,58,138,0.15);
@@ -228,11 +235,33 @@ SCROLL ANIMATION (ADDED)
     height: 100%;
     border: 0;
 }
+
+/* ===============================
+MOBILE IMPROVEMENTS
+================================ */
+@media (max-width: 600px) {
+
+    .about-section p {
+        text-align: left;
+    }
+
+    #backToTop {
+        right: 12px;
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
+
 </style>
 
 <!-- ABOUT -->
 <section class="about-section scroll-animate">
-    <h2 class="mayor-title">About the Municipality of Bato</h2>
+        <!-- ✅ MUNICIPAL SEAL -->
+    <div class="municipal-seal">
+        <img src="assets/icons/seal2.png" alt="Municipality Seal">
+    </div>
+
+    <h2 class="mayor-title" style="color: #1b2a4e;">About the Municipality of Bato</h2>
     <p>
 Bato (IPA: [bɐˈto]), officially known as the Municipality of Bato (Cebuano: Lungsod sa Bato; Waray: Bungto han Bato; Tagalog: Bayan ng Bato), is a municipality located in the province of Leyte, Philippines. According to the 2024 census, it has a population of 39,275 people.
 
@@ -242,22 +271,24 @@ The municipality is bordered by Matalom to the south, Hilongos to the north, and
 
 <!-- MISSION & VISION -->
 <section class="about-section scroll-animate">
-    <h2>Mission and Vision</h2>
+    <h2 style="color: #1b2a4e; text-transform: uppercase;">Mission and Vision</h2>
 
     <div class="mission-vision">
         <div class="mv-box">
             <h3>Mission</h3>
             <p>
-                To provide efficient, transparent, and people-centered public
-                service through sustainable development programs and responsible governance.
+                To foster a technology-driven and business-friendly environrement in Leyte
+                by empowering God-loving Batohanons through inclusive governance, sustainable livelihood programs, disaster
+                resilience initiatives and ecological stewardship - ensuring balanced, progressive, and 
+                selft-reliant community for present and future generations.
             </p>
         </div>
 
         <div class="mv-box">
             <h3>Vision</h3>
             <p>
-                A progressive and resilient Municipality of Bato with empowered citizens,
-                sustainable growth, and inclusive development.
+                A technolog-driven business hub in Leyte with empowered and God-loving Batohanons, living in self-sustaining,
+                disaster resilient, and ecologically balanced environment advocating good governance.
             </p>
         </div>
     </div>
@@ -265,7 +296,7 @@ The municipality is bordered by Matalom to the south, Hilongos to the north, and
 
 <!-- POPULATION -->
 <section class="about-section scroll-animate">
-    <h2>Population</h2>
+    <h2 style="color: #1b2a4e; text-transform: uppercase;">Population</h2>
     <div class="population-grid">
         <div class="population-box">
             <h3>39,275</h3>
@@ -284,7 +315,7 @@ The municipality is bordered by Matalom to the south, Hilongos to the north, and
 
 <!-- LOCATION -->
 <section class="about-section scroll-animate">
-    <h2>Location</h2>
+    <h2 style="color: #1b2a4e; text-transform: uppercase;">Location</h2>
     <ul class="location-list">
         <li><strong>Province:</strong> Leyte</li>
         <li><strong>Region:</strong> Eastern Visayas (Region VIII)</li>
@@ -297,7 +328,7 @@ The municipality is bordered by Matalom to the south, Hilongos to the north, and
 
 <!-- HISTORY -->
 <section class="about-section scroll-animate">
-    <h2>Historical Timeline</h2>
+    <h2 style="color: #1b2a4e; text-transform: uppercase;">Historical Timeline</h2>
     <div class="timeline">
         <p><strong>Pre-Spanish Era:</strong> Early settlers relied on fishing and farming.</p>
         <p><strong>Spanish Period:</strong> The town became organized under Spanish governance.</p>
@@ -307,7 +338,7 @@ The municipality is bordered by Matalom to the south, Hilongos to the north, and
 
 <!-- MAP -->
 <section class="about-section scroll-animate">
-    <h2>Municipality Map</h2>
+    <h2 style="color: #1b2a4e; text-transform: uppercase;">Municipality Map</h2>
     <div class="map-container">
         <iframe src="https://www.google.com/maps?q=Bato%2C%20Leyte&output=embed"></iframe>
     </div>
