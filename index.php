@@ -259,68 +259,6 @@
     .news-content p { font-size: 0.9rem; }
 }
 
-/* ===============================
-   HERO CORNER IMAGES
-================================ */
-.hero-corner-image {
-    position: absolute;
-    bottom: 30px;
-    width: 220px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
-    z-index: 3;
-    transition: transform 0.3s ease;
-}
-
-.hero-corner-image:hover {
-    transform: scale(1.05);
-}
-
-/* LEFT IMAGE */
-.hero-left {
-    left: 30px;
-}
-
-/* RIGHT IMAGE */
-.hero-right {
-    right: 30px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .hero-corner-image {
-        width: 150px;
-        height: 110px;
-        bottom: 20px;
-    }
-
-    .hero-left {
-        left: 15px;
-    }
-
-    .hero-right {
-        right: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    /* stack them on small phones */
-    .hero-left {
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 140px;
-    }
-
-    .hero-right {
-        left: 50%;
-        right: auto;
-        transform: translateX(-50%);
-        bottom: 20px;
-    }
-}
-
 </style>
 
 <!-- HERO SECTION – KEEP EXACTLY AS IS -->
@@ -333,15 +271,6 @@
             Stay updated with the latest news, events, and announcements from our municipality.
         </p>
     </div>
-
-    <!-- HERO BOTTOM IMAGES -->
-<div class="hero-bottom-images">
-<img src="assets/images/image1.jpg" alt="Municipal Activity"
-     class="hero-corner-image hero-left">
-
-<img src="assets/images/image2.jpg" alt="Community Program"
-     class="hero-corner-image hero-right">
-</div>
 </section>
 
 <!-- NEWS SECTION -->
