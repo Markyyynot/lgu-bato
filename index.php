@@ -1,4 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <?php include 'includes/header.php'; ?>
+
 <style>
 
 /* ===============================
@@ -10,84 +16,14 @@
     transition: opacity 0.8s ease-out,
                 transform 0.8s cubic-bezier(.22,1,.36,1);
 }
-
 .scroll-animate.show {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* EMERGENCY HOTLINE SECTION */
-.emergency-section {
-    width: 100%;
-    max-width: 1200px;
-    margin: 60px auto;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.emergency-card {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #c0392b, #e74c3c);
-    border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-    color: white;
-    text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.4s ease, color 0.4s ease;
-}
-
-.emergency-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
-    background: white;
-    color: red;
-}
-
-.emergency-image {
-    width: 180px;
-    max-width: 90%;
-    height: auto;
-    object-fit: cover;
-    margin: 20px;
-    border-radius: 12px;
-}
-
-.emergency-content {
-    padding: 25px 30px;
-    text-align: left;
-    max-width: 600px;
-}
-
-.emergency-content h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-}
-
-.emergency-content p {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
-
-.emergency-content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.emergency-content ul li {
-    font-size: 1.05rem;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-/* HERO SECTION – KEEP EXACTLY AS IS */
+/* ===============================
+   HERO SECTION
+================================ */
 .hero-section {
     width: 100vw;
     height: 100vh;
@@ -96,13 +32,28 @@
     overflow: hidden;
 }
 
-.hero-image {
+/* SLIDES */
+.hero-slides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-slide {
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: brightness(65%);
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
 }
 
+.hero-slide.active {
+    opacity: 1;
+}
+
+/* HERO TEXT (KEEP YOUR ORIGINAL STYLE) */
 .hero-text {
     position: absolute;
     top: 50%;
@@ -114,24 +65,44 @@
     border-radius: 12px;
     text-align: center;
     max-width: 90%;
+    transition: opacity 0.8s ease;
 }
 
-.hero-text h2 {
-    font-size: 2.3rem;
-    margin-bottom: 15px;
+.hero-text.fade-out {
+    opacity: 0;
 }
 
-.hero-text p {
-    font-size: 1.1rem;
+/* CORNER IMAGES */
+.hero-corner-image {
+    position: absolute;
+    bottom: 30px;
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    z-index: 3;
+    transition: transform 0.3s ease;
+}
+.hero-corner-image:hover {
+    transform: scale(1.05);
 }
 
-/* NEWS SECTION */
+.hero-left { 
+    left: 0;
+    bottom: 0; /* stick to left corner */
+}
+.hero-right { 
+    right: 0; /* stick to right corner */
+    bottom: 0; /* stick to right corner */
+}
+
+/* ===============================
+   NEWS SECTION
+================================ */
 .news-section {
     padding: 50px 20px;
     background-color: white;
     text-align: center;
 }
-
 .news-section h2 {
     font-size: 2.5rem;
     color: rgb(184, 0, 0);
@@ -139,14 +110,12 @@
     text-transform: uppercase;
     font-weight: 700;
 }
-
 .news-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
 }
-
 .news-card {
     display: block;
     width: 300px;
@@ -158,47 +127,65 @@
     color: #1b2a4e;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .news-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
-
 .news-card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
+.news-content { padding: 20px; text-align: left; }
+.news-content h3 { font-size: 1.3rem; margin-bottom: 10px; }
+.news-content p { font-size: 0.95rem; color: #555; line-height: 1.5; }
+.news-date { display: block; margin-top: 10px; font-size: 0.85rem; color: #888; }
 
-.news-content {
-    padding: 20px;
+/* ===============================
+   EMERGENCY SECTION
+================================ */
+.emergency-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.emergency-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #c0392b, #e74c3c);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.emergency-card:hover {
+    transform: translateY(-5px);
+    background: white;
+    color: red;
+}
+.emergency-image {
+    width: 180px;
+    margin: 20px;
+    border-radius: 12px;
+}
+.emergency-content {
+    padding: 25px 30px;
     text-align: left;
+    max-width: 600px;
 }
 
-.news-content h3 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-}
-
-.news-content p {
-    font-size: 0.95rem;
-    color: #555;
-    line-height: 1.5;
-}
-
-.news-date {
-    display: block;
-    margin-top: 10px;
-    font-size: 0.85rem;
-    color: #888;
-}
-
-/* =======================
-   BACK TO TOP BUTTON
-======================= */
+/* ===============================
+   BACK TO TOP
+================================ */
 #backToTop {
     position: fixed;
-    top: -70px; /* hidden above screen */
+    top: -70px;
     right: 20px;
     z-index: 999;
     background-color: #1b2a4e;
@@ -212,58 +199,105 @@
     transition: all 0.4s ease;
     opacity: 0;
 }
-
-/* SHOW ANIMATION */
 #backToTop.show {
     top: 20px;
     opacity: 1;
 }
 
-/* Hover animation */
-#backToTop:hover {
-    background-color: #ffffff;
-    color: #1b2a4e;
-    transform: translateY(-3px) scale(1.05);
-}
+/* ===============================
+   RESPONSIVE
+================================ */
 
-/* RESPONSIVE */
 @media (max-width: 992px) {
-    .news-card { width: 45%; }
+    .hero-corner-image {
+        width: 250px;
+        height: 350px;
+        bottom: 0;
+    }
 }
 
+/* ===============================
+   MOBILE VIEW FIX
+================================ */
 @media (max-width: 768px) {
-    .news-card { width: 90%; }
-    .news-section h2 { font-size: 2rem; }
-
-    .emergency-card {
-        flex-direction: column;
-        text-align: center;
+    .hero-section {
+        height: 50svh; 
     }
 
-    .emergency-content {
-        padding: 20px;
+    .hero-slide {
+        object-fit: cover;
+        object-position: center center;
     }
 
-    .emergency-content h2 {
-        font-size: 1.8rem;
+    .hero-text {
+        top: 45%;
+        padding: 12px 15px;
+        width: 90%;
     }
 
-    .emergency-content p,
-    .emergency-content ul li {
-        font-size: 1rem;
+    .hero-text h2 {
+        font-size: 1.1rem; /* smaller heading */
+        line-height: 1.2;  /* tighter spacing */
+    }
+
+    .hero-text p {
+        font-size: 0.8rem; /* smaller paragraph */
+        line-height: 1.3;
+    }
+
+    .hero-corner-image {
+        width: 140px;
+        height: 200px;
     }
 }
 
 @media (max-width: 480px) {
-    .news-content h3 { font-size: 1.1rem; }
-    .news-content p { font-size: 0.9rem; }
+    .hero-section {
+        height: 40svh; 
+    }
+
+    .hero-slide {
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .hero-text {
+        top: 50%;
+        padding: 10px;
+        width: 70%;
+        height: auto;
+        
+    }
+
+    .hero-text h2 {
+        font-size: 0.95rem; /* even smaller for very small screens */
+        line-height: 1.2;
+    }
+
+    .hero-text p {
+        font-size: 0.75rem;
+        line-height: 1.2;
+    }
+
+    .hero-corner-image {
+        width: 100px;
+        height: 130px;
+    }
 }
 
 </style>
 
-<!-- HERO SECTION – KEEP EXACTLY AS IS -->
+<!-- HERO SECTION -->
 <section class="hero-section">
-    <img src="assets/images/bato.jpg" alt="LGU Bato" class="hero-image">
+
+    <div class="hero-slides">
+        <img src="assets/images/bato.jpg" class="hero-slide active">
+        <img src="assets/images/bato-hero.jpg" class="hero-slide">
+        <img src="assets/index/2.jpg" class="hero-slide">
+        <img src="assets/index/3.jpg" class="hero-slide">
+        <img src="assets/index/4.jpg" class="hero-slide">
+    </div>
+
     <div class="hero-text">
         <h2 class="mayor-title">Welcome to the Official Website of LGU Bato</h2>
         <p class="mayor-title">
@@ -271,6 +305,10 @@
             Stay updated with the latest news, events, and announcements from our municipality.
         </p>
     </div>
+
+    <img src="assets/mayor/mayor.png" class="hero-corner-image hero-left">
+    <img src="assets/vice/vice1.png" class="hero-corner-image hero-right">
+
 </section>
 
 <!-- NEWS SECTION -->
@@ -387,6 +425,41 @@ backToTopBtn.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slides = document.querySelectorAll(".hero-slide");
+    const heroText = document.querySelector(".hero-text");
+    let currentSlide = 0;
+
+    function changeSlide() {
+
+        // Fade out text before slide change ONLY if going to next slide
+        if(currentSlide === 0) {
+            heroText.classList.add("fade-out");
+        }
+
+        setTimeout(() => {
+
+            slides.forEach(slide => slide.classList.remove("active"));
+
+            currentSlide++;
+            if(currentSlide >= slides.length) {
+                currentSlide = 0;
+                // Fade text back in after cycling back to first image
+                heroText.classList.remove("fade-out");
+            }
+
+            slides[currentSlide].classList.add("active");
+
+        }, 800);
+
+    }
+
+    setInterval(changeSlide, 5000);
+});
 </script>
 
 <?php include 'includes/footer.php'; ?>
+
+</html>

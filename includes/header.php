@@ -119,6 +119,24 @@
     padding: 10px 15px;
 }
 
+@media (max-width: 992px) { /* tablets and below */
+    .header-container.new-header-layout {
+        flex-direction: column; /* stack logo and text */
+        align-items: center;    /* center everything horizontally */
+        text-align: center;     /* center text inside header-text */
+    }
+
+    .header-text {
+        margin: 10px 0 0 0;     /* spacing from logo */
+    }
+
+    .header-logo {
+        max-width: 120px;       /* adjust logo size on smaller screens */
+        height: auto;
+    }
+}
+
+
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -147,7 +165,21 @@
         max-height: 500px; /* adjust if many links */
     }
 
-    /* REMOVE ARROW ROTATION: no ::after changes for mobile */
+        .header-text {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Optional: add spacing between elements */
+    .header-text .country,
+    .header-text .unit,
+    .header-text h1,
+    .header-text .pst-time {
+        display: block;
+        margin: 4px 0; /* adjust spacing as needed */
+    }
+
 }
 </style>
 </head>

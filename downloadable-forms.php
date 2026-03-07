@@ -3,6 +3,8 @@ $currentPage = 'downloadable-forms.php';
 include 'includes/header.php';
 ?>
 
+<link rel="icon" type="image/png" href="assets/images/seal2.png">
+
 <style>
 /* BASE STYLES */
 body {
@@ -116,17 +118,17 @@ body {
     <p>Here you can download all official forms from the LGU.</p>
 
     <div class="form-grid">
-        <a href="forms/form1.pdf" target="_blank" class="form-card">
+        <a style="text-decoration: none;"  href="view-downloadableform.php?file=citizens-charter.pdf" target="_blank" class="form-card">
             <i class="fa-solid fa-file-pdf"></i>
-            <span>Form 1</span>
+            <span>CITIZENS CHARTER</span>
         </a>
 
-        <a href="forms/form2.pdf" target="_blank" class="form-card">
+        <a href="view-downloadableform.php?file=form2.pdf" target="_blank" class="form-card">
             <i class="fa-solid fa-file-pdf"></i>
             <span>Form 2</span>
         </a>
 
-        <a href="forms/form3.pdf" target="_blank" class="form-card">
+        <a href="view-downloadableform.php?file=form3.pdf" target="_blank" class="form-card">
             <i class="fa-solid fa-file-pdf"></i>
             <span>Form 3</span>
         </a>
