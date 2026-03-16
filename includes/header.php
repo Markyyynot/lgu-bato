@@ -260,6 +260,12 @@
             <a href="resolutions.php" class="<?= $currentPage == 'resolutions.php' ? 'active' : '' ?>">
                 <i class="fa-solid fa-file-signature"></i> Resolutions
             </a>
+            <a href="citizens-charter.php" class="<?= $currentPage == 'citizens-charter.php' ? 'active' : '' ?>">
+                <i class="fa-solid fa-book-open"></i> Citizens Charter
+            </a>
+            <a href="transparency-seal.php" class="<?= $currentPage == 'transparency-seal.php' ? 'active' : '' ?>">
+                <i class="fa-solid fa-shield-halved"></i> Transparency Seal
+            </a>
         </div>
     </div>
 

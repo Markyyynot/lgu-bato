@@ -1,22 +1,29 @@
 <?php
-if(isset($_GET['file'])){
-
+if (isset($_GET['file'])) {
+    // Prevent directory traversal
     $file = basename($_GET['file']);
-    $filepath = "assets/eo/" . $file;
+    
+    // Get the subfolder from the query
+    $subfolder = dirname($_GET['file']); // 2025 or 2026
 
-    if(file_exists($filepath)){
+    $filepath = 'assets/eo/' . $subfolder . '/' . $file;
 
+    if (file_exists($filepath)) {
         header('Content-Description: File Transfer');
         header('Content-Type: application/octet-stream');
-        header('Content-Disposition: attachment; filename="'.$file.'"');
-        header('Content-Length: ' . filesize($filepath));
+        header('Content-Disposition: attachment; filename="' . $file . '"');
+        header('Expires: 0');
         header('Cache-Control: must-revalidate');
         header('Pragma: public');
-
+        header('Content-Length: ' . filesize($filepath));
+        flush();
         readfile($filepath);
         exit;
     } else {
-        echo "File not found.";
+        echo "File does not exist.";
     }
+} else {
+    echo "No file specified.";
 }
 ?>
+

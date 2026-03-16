@@ -4,7 +4,14 @@ include 'includes/header.php';
 ?>
 
 <style>
-
+.transparency-image {
+    display: block;
+    margin: 30px auto 10px;
+    max-width: 120px; /* smaller size */
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
 /* =======================
    BACK TO TOP BUTTON
 ======================= */
@@ -114,15 +121,18 @@ table a:hover {
     .mayor-title { font-size: 32px; }
     .content-section { font-size: 16px; }
     table th, table td { font-size: 14px; padding: 10px 8px; }
+
 }
 @media (max-width: 480px) {
     .mayor-title { font-size: 28px; }
     .content-section { font-size: 14px; padding: 0 10px; }
     table th, table td { font-size: 12px; padding: 8px 6px; }
+
 }
 </style>
 
 <section>
+
     <h2 class="mayor-title"><i class="fa-solid fa-file-circle-check"></i> Resolutions</h2>
     <div class="content-section">
         <p>List of council resolutions passed by the municipal government. Each resolution addresses policies, approvals, and local development initiatives.</p>

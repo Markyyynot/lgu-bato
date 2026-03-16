@@ -111,12 +111,15 @@ table a:hover {
     .mayor-title { font-size: 32px; }
     .content-section { font-size: 16px; }
     table th, table td { font-size: 14px; padding: 10px 8px; }
+
 }
 @media (max-width: 480px) {
     .mayor-title { font-size: 28px; }
     .content-section { font-size: 14px; padding: 0 10px; }
     table th, table td { font-size: 12px; padding: 8px 6px; }
+
 }
+
 </style>
 
 <section>

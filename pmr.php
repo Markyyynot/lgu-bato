@@ -273,13 +273,13 @@ body {
         <div class="document-card">
             <img src="assets/pmr/1.jpeg" alt="PMR Cover"style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Department of Budget and Management Annual Procurement Plan JAN-JUN-2023</p>
-            <a href="assets/pmr/DepartmentofBudgetandManagementAnnualProcurementPlanJAN-JUN-2023.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/pmr/DepartmentofBudgetandManagementAnnualProcurementPlanJAN-JUN-2023.pdf" target="_blank" download>📄 DOWNLOAD</a>
         </div>
 
         <div class="document-card">
             <img src="assets/pmr/2.jpeg" alt="PMR Cover"style="width:100%; border-radius:8px; margin-bottom:20px;">
             <p>Department of Budget and Management Annual Procurement Plan JAN-DEC-2023</p>
-            <a href="assets/pmr/DepartmentofBudgetandManagementAnnualProcurementPlanJAN-DEC-2023.xlsx" target="_blank">📄 DOWNLOAD</a>
+            <a href="assets/pmr/DepartmentofBudgetandManagementAnnualProcurementPlanJAN-DEC-2023.pdf" target="_blank" download>📄 DOWNLOAD</a>
         </div>
 
     </div>

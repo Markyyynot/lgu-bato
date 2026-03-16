@@ -114,15 +114,19 @@ table a:hover {
     .mayor-title { font-size: 32px; }
     .content-section { font-size: 16px; }
     table th, table td { font-size: 14px; padding: 10px 8px; }
+
 }
 @media (max-width: 480px) {
     .mayor-title { font-size: 28px; }
     .content-section { font-size: 14px; padding: 0 10px; }
     table th, table td { font-size: 12px; padding: 8px 6px; }
+
 }
+
 </style>
 
 <section>
+
     <h2 class="mayor-title"><i class="fa-solid fa-gavel"></i> Ordinances</h2>
     <div class="content-section">
         <p>List of local ordinances enacted by the municipality. Each ordinance addresses community needs, regulations, and local governance policies.</p>
