@@ -6,6 +6,39 @@ include 'includes/header.php';
 <link rel="icon" type="image/png" href="assets/images/seal2.png">
 
 <style>
+
+
+/* ===========================
+   BACK TO TOP BUTTON
+=========================== */
+#backToTop {
+    position: fixed;
+    top: -70px;
+    right: 20px;
+    z-index: 999;
+    background-color: #1b2a4e;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+#backToTop.show {
+    top: 20px;
+    opacity: 1;
+}
+
+#backToTop:hover {
+    background-color: #ffffff;
+    color: #1b2a4e;
+    transform: translateY(-3px) scale(1.05);
+}
+
 /* BASE STYLES */
 body {
     background-color: #f5f0e6;
@@ -121,6 +154,8 @@ body {
     max-width: 250px;
 }
 </style>
+<button id="backToTop" title="Go to top">↑ Top</button>
+
 
 <section class="page-header">
     <h1 class="page-title">
@@ -138,15 +173,36 @@ body {
     <div class="charter-row">
         <!-- Citizens Charter Image -->
         <img src="assets/citizens/issuanceofmunicaplclearance.jpeg" alt="Citizens Charter" class="charter-image">
-        <img src="assets/citizens/issuanceofmunicaplclearance.jpeg" alt="Citizens Charter" class="charter-image">
-        <img src="assets/citizens/issuanceofmunicaplclearance.jpeg" alt="Citizens Charter" class="charter-image">
-        <img src="assets/citizens/issuanceofmunicaplclearance.jpeg" alt="Citizens Charter" class="charter-image">
-        <img src="assets/citizens/issuanceofmunicaplclearance.jpeg" alt="Citizens Charter" class="charter-image">
+        <img src="assets/citizens/certificationoftrees.jpeg" alt="Citizens Charter" class="charter-image">
+        <img src="assets/citizens/issuanceofpermit.jpeg" alt="Citizens Charter" class="charter-image">
+        <img src="assets/citizens/issuanceofpermits.jpeg" alt="Citizens Charter" class="charter-image">
+        <img src="assets/citizens/motorcade.jpeg" alt="Citizens Charter" class="charter-image">
 </div>
-    <a href="view-downloadableform.php?file=citizens-charter.pdf" target="_blank" class="charter-card">
-        <i class="fa-solid fa-file-pdf"></i>
-        <span>VIEW CITIZENS CHARTER</span>
-    </a>
+<a href="assets/citizens/CITIZENS-CHARTER.pdf" class="charter-card" download>
+    <i class="fa-solid fa-file-pdf"></i>
+    <span>DOWNLOAD CITIZENS CHARTER</span>
+</a>
 </section>
+
+<script>
+const backToTopBtn = document.getElementById("backToTop");
+
+// Show button when scrolling down
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 250) {
+        backToTopBtn.classList.add("show");
+    } else {
+        backToTopBtn.classList.remove("show");
+    }
+});
+
+// Smooth scroll to top
+backToTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
 
 <?php include 'includes/footer.php'; ?>

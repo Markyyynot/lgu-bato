@@ -83,8 +83,8 @@ body {
 <section class="page-content">
     <div class="transparency-row">
         <!-- Clickable Transparency Seal Image -->
-        <a href="assets/transparency/transparency-seal.pdf" target="_blank">
-            <img src="assets/icons/transparency.png" alt="Transparency Seal" class="transparency-image">
+        <a href="assets/transparency/transparency.pdf" download>
+            <img src="assets/transparency/transparency.png" alt="Transparency Seal" class="transparency-image">
         </a>
     </div>
 </section>
